@@ -8,8 +8,8 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },*/
-    { path: '/ContadorPrueba', name: 'ContadorPrueba', component: () => import('../components/ContadorPrueba.vue')},
-    { path: '/ListaDeTareas', name: 'ListaDeTareas', component: () => import('../components/ListaTareas.vue')},
+    { path: '/ContadorPrueba', name: 'ContadorPrueba', component: () => import('../modules/contador/components/ContadorPrueba.vue')},
+    { path: '/ListaDeTareas', name: 'ListaDeTareas', component: () => import('../modules/listaTareas/components/ListaTareas.vue')},
      
   ]
 })
